@@ -1,0 +1,144 @@
+<include file="Index:header" />
+<style>
+  .background-imgholder {
+    background-image: url(/pic/page_banner.jpg) !important;
+  }
+
+  @media screen and (max-width: 600px) {
+    .text-box.white.padding-4 {
+      padding: 30px 0px !important;
+      margin-bottom: 20px;
+    }
+
+    .smart-forms .form-footer {
+      padding: 0px;
+    }
+  }
+</style>
+<div class="clearfix"></div>
+<section class="section-side-image clearfix">
+  <div class="img-holder col-md-12 col-sm-12 col-xs-12">
+    <div class="background-imgholder" style="background:url(http://placehold.it/1500x1000);"><img
+        class="nodisplay-image" src="http://placehold.it/1500x1000" alt="" /> </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12 clearfix nopadding">
+        <div class="header-inner less-height">
+          <div class="overlay">
+            <div class="text text-center">
+              <h3 class="uppercase text-white less-mar-1 title">Contact Classic</h3>
+              <h6 class="uppercase text-white sub-title">Get Many More Features</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class=" clearfix"></div>
+<!--end header section -->
+
+<section class="sec-padding section-light">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-8">
+
+        <h3 class="uppercase">Contact Form</h3>
+        <p style="font-size:16px;line-height:20px">Hey, have any questions or problems? We'd love to hear from you. Do
+          fill up our contact form at below, we will get our expert/advisor to contact you soon. </p>
+        <br />
+        <br />
+
+        <div class="text-box white padding-4">
+          <div class="smartforms-modal-body">
+            <div class="smart-wrap">
+              <div class="smart-forms smart-container transparent wrap-full">
+                <div class="form-body no-padd">
+                  <form method="post" action="php/smartprocess.php" id="smart-form">
+
+                    <div class="section">
+                      <label class="field prepend-icon">
+                        <input type="text" name="sendername" id="sendername" class="gui-input" placeholder="Enter name">
+                        <span class="field-icon"><i class="fa fa-user"></i></span>
+                      </label>
+                    </div><!-- end section -->
+
+                    <div class="section">
+                      <label class="field prepend-icon">
+                        <input type="email" name="emailaddress" id="emailaddress" class="gui-input"
+                          placeholder="Email address">
+                        <span class="field-icon"><i class="fa fa-envelope"></i></span>
+                      </label>
+                    </div><!-- end section -->
+
+
+                    <div class="section">
+                      <label class="field prepend-icon">
+                        <input type="text" name="telephone" id="telephone" class="gui-input"
+                          placeholder="Enter Telephone...">
+                        <span class="field-icon"><i class="fa fa-phone-square"></i></span>
+                      </label>
+                    </div><!-- end section -->
+
+
+                    <div class="section">
+                      <label class="field prepend-icon">
+                        <input type="text" name="sendersubject" id="sendersubject" class="gui-input"
+                          placeholder="Enter subjec">
+                        <span class="field-icon"><i class="fa fa-lightbulb-o"></i></span>
+                      </label>
+                    </div><!-- end section -->
+
+                    <div class="section">
+                      <label class="field prepend-icon">
+                        <textarea class="gui-textarea" id="sendermessage" name="sendermessage"
+                          placeholder="Enter message"></textarea>
+                        <span class="field-icon"><i class="fa fa-comments"></i></span>
+                        <span class="input-hint"> <strong>Hint:</strong> Please enter between 80 - 300
+                          characters.</span>
+                      </label>
+                    </div><!-- end section -->
+
+
+                    <div class="result"></div><!-- end .result  section -->
+
+                    <!-- end .form-body section -->
+                    <div class="form-footer text-left">
+                      <button type="submit" data-btntext-sending="Sending..." class="button btn-primary">Submit</button>
+                      <button type="reset" class="button"> Cancel </button>
+                    </div><!-- end .form-footer section -->
+                  </form>
+                </div><!-- end .form-body section -->
+              </div><!-- end .smart-forms section -->
+            </div><!-- end .smart-wrap section -->
+          </div>
+        </div><!-- end .smart-wrap section -->
+        <!-- end .smart-forms section -->
+      </div>
+      <!--end item-->
+
+      <div class="col-md-4 text-left">
+        <h4>Address Info</h4>
+        <h6 style="font-size:16px;line-height:20px">W Network Sdn Bhd</h6>
+        <p style="font-size:16px;line-height:20px">3-45, Jalan Puteri 4/8,
+          <br>
+          Bandar Puteri, 47100 Puchong,
+          <br>
+          Selangor.
+          <br>
+        </p>
+        <br />
+        <p style="font-size:16px;line-height:20px">Tel: 03-80527381</p>
+        <p style="font-size:16px;line-height:20px">E-mail: contact@webifynetwork.com</p>
+        <p style="font-size:16px;line-height:20px">Website: www.wnetwork.com.my</p>
+      </div>
+      <!--end item-->
+
+
+
+    </div>
+  </div>
+</section>
+<include file="Index:footer" />

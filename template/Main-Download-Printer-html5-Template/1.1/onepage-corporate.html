@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Printer - Responsive MultiPurpose HTML5 Template</title>
+<meta name="keywords" content="" />
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Mobile view -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap.min.css">
+
+<!-- Google fonts - witch you want to use - (rest you can just remove) -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+
+<!-- Template's stylesheets -->
+<link rel="stylesheet" href="js/megamenu/stylesheets/screen.css">
+<link rel="stylesheet" href="js/megamenu/stylesheets/onepage.css">
+<link rel="stylesheet" href="css/theme-default.css" type="text/css">
+<link rel="stylesheet" href="js/loaders/stylesheets/screen.css">
+<link rel="stylesheet" href="css/corporate.css" type="text/css">
+<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="fonts/Simple-Line-Icons-Webfont/simple-line-icons.css" media="screen" />
+<link rel="stylesheet" href="fonts/et-line-font/et-line-font.css">
+<link rel="stylesheet" type="text/css" href="js/revolution-slider/css/settings.css">
+<link rel="stylesheet" type="text/css" href="js/revolution-slider/css/layers.css">
+<link rel="stylesheet" type="text/css" href="js/revolution-slider/css/navigation.css">
+<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="js/cubeportfolio/cubeportfolio.min.css">
+<link rel="stylesheet" type="text/css" href="js/smart-forms/smart-forms.css">
+<!-- Template's stylesheets END -->
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Style Customizer's stylesheets -->
+<link rel="stylesheet" type="text/css" href="js/style-customizer/css/spectrum.css">
+<link rel="stylesheet" type="text/css" href="js/style-customizer/css/style-customizer.css">
+<link rel="stylesheet/less" type="text/css" href="less/skin.less">
+<!-- Style Customizer's stylesheets END -->
+
+<!-- Skin stylesheet -->
+
+</head>
+
+<body data-spy="scroll" data-target="#menu">
+<div class="over-loader loader-live">
+  <div class="loader">
+			<div class="loader-item style4">
+				<div class="cube1"></div>
+				<div class="cube2"></div>
+			</div>
+		</div>
+</div>
+<!--end loading--> 
+
+<!-- Style Customizer -->
+<section id="style-customizer">
+  <div class="style-customizer-wrap form-horizontal">
+    <h4 class="sc-header">Style Customizer</h4>
+    <h5>Layout Style</h5>
+    <div class="sc-variable-row form-group">
+      <div class="radio-group col-xs-12">
+        <input type="radio" name="sc-layout-type" id="sc-layout-type-boxed" class="sc-variable" data-key="layoutType" value="boxed" checked>
+        <input type="radio" name="sc-layout-type" id="sc-layout-type-wide" class="sc-variable" data-key="layoutType" value="wide">
+        <label for="sc-layout-type-wide" class="style-fweight-normal">Wide</label>
+        <label for="sc-layout-type-boxed" class="style-fweight-normal">Boxed</label>
+      </div>
+    </div>
+    <fieldset id="outer-bg-section">
+      <h5 class="customizer-style-tytle-padd">Outer Background Styles</h5>
+      <div class="sc-variable-row form-group">
+        <div class="col-xs-12">
+          <select name="sc-bg-outer-type" id="sc-bg-outer-type" data-key="outerBgType" class="sc-variable col-xs-8">
+            <option value="color" selected>Solid color</option>
+            <option value="pattern">Pattern</option>
+            <option value="image">Image</option>
+          </select>
+          <div class="col-xs-4">
+            <div id="sc-bg-outer-color-wrap">
+              <input type="color" name="sc-bg-outer-color" id="sc-bg-outer-color" class="sc-variable" data-key="outerBgColor">
+            </div>
+            <div id="sc-bg-outer-image-wrap">
+              <input type="file" accept="image/*" name="sc-bg-outer-image" id="sc-bg-outer-image" class="sc-variable sr-only" data-key="outerBgImage">
+              <label for="sc-bg-outer-image" class="sc-btn" title="Upload image"><i class="fa fa-upload"></i> </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <h5 class="customizer-style-tytle-padd">Color Options</h5>
+    <div class="sc-variable-row form-group style-form-group">
+      <label for="sc-color-prim" class="col-xs-8 control-label color-text">Primary Color</label>
+      <div class="col-xs-4">
+        <input type="color" id="sc-color-prim" class="sc-variable" data-key="colorPrimary">
+      </div>
+    </div>
+    <div class="style-divider-line"></div>
+    <div class="sc-variable-row form-group style-form-group style-tpadd">
+      <label for="sc-color-second" class="col-xs-8 control-label color-text">Secondary Color</label>
+      <div class="col-xs-4">
+        <input type="color" id="sc-color-second" class="sc-variable" data-key="colorSecondary">
+      </div>
+    </div>
+    <div class="style-divider-line"></div>
+    <div class="sc-variable-row form-group style-form-group style-tpadd">
+      <label for="sc-color-third" class="col-xs-8 control-label color-text">Tertiary Color</label>
+      <div class="col-xs-4">
+        <input type="color" id="sc-color-third" class="sc-variable" data-key="colorTertiary">
+      </div>
+    </div>
+    <br/>
+    <div class="form-group">
+      <div class="col-xs-12">
+        <button class="sc-btn" id="sc-download-css"><i class="fa fa-download"></i> Get CSS file</button>
+      </div>
+    </div>
+    <br/>
+    <br/>
+    <div> <a class="sty-demo-btn" href="https://codelayers.net/templates/printer/demo/demo.html" target="_blank">Demos</a> </div>
+  </div>
+  <button id="sc-toggle" title="Styles Customizer"><i class="fa fa-wrench"></i> </button>
+</section>
+<div class="modal fade" tabindex="-1" role="dialog" id="afterSaveCSSFileModal" aria-labelledby="afterSaveCSSFileModalLabel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="afterSaveCSSFileModalLabel">File saved</h4>
+      </div>
+      <div class="modal-body"> In order to apply the generated custom styles to your template, please follow these steps:
+        <ol>
+          <li class="sc-after-save-todo-point-file">Upload the "skin.css" file to "css" directory in your template</li>
+          <li class="sc-after-save-todo-point-image">Upload the image file to "img" directory in your template. Keep the image file name unchanged.</li>
+          <li class="sc-after-save-todo-point-stylesheet-code"> Copy this code and paste it into "index.html" file in your template, after the line marked as <code>&lt;!-- Skin stylesheet --&gt;</code>
+            <pre><code>&lt;link rel="stylesheet" href="css/skin.css"&gt;</code></pre>
+          </li>
+          <li class="sc-after-save-todo-point-preloader"> Copy this code and paste it into "index.html" file in your template, after the line marked as <code>&lt;!-- Preloader icon --&gt;</code>
+            <pre><code class="sc-preloader-html"></code></pre>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Style customizer END -->
+
+<div class="wrapper-boxed">
+  <div class="site-wrapper">
+    <div id="section1"></div>
+    <div class="header-section pin-style style4">
+		<div class="container">
+			<div class="mod-menu">
+				<div class="row">
+					<div class="col-sm-2">
+						<a href="#" title="" class="logo mar-4">
+							<img src="images/logo/logo.png" alt="">
+						</a>
+					</div>
+					<div class="col-sm-10">
+						<div class="main-nav" id="navbar-example">
+							<ul class="nav navbar-nav top-nav">
+								<li class="search-parent">
+									<a href="#" title=""><i aria-hidden="true" class="fa fa-search"></i></a>
+									<div class="search-box">
+										<div class="content">
+											<div class="form-control">
+												<input type="text" placeholder="Type to search" />
+												<a href="#" class="search-btn"><i aria-hidden="true" class="fa fa-search"></i></a>
+											</div>
+											<a href="#" class="close-btn">x</a>
+										</div>
+									</div>
+								</li>
+								<li class="cart-parent">
+									<a href="#" title="">
+										<i aria-hidden="true" class="fa fa-shopping-cart"></i>
+										<span class="number">
+											4
+										</span>
+									</a>
+									<div class="cart-box">
+										<div class="content">
+											<div class="row">
+												<div class="col-xs-8">
+													2 item(s)
+												</div>
+												<div class="col-xs-4 text-right">
+													<span>$99</span>
+												</div>
+											</div>
+											<ul>
+												<li>
+													<img src="http://placehold.it/80x80" alt="">
+													Fashion Hat
+													<span>$30</span>
+													<a href="#" title="" class="close-btn">x</a>
+												</li>
+												<li>
+													<img src="http://placehold.it/80x80" alt="">
+													Fashion Hat
+													<span>$30</span>
+													<a href="#" title="" class="close-btn">x</a>
+												</li>
+											</ul>
+											<div class="row">
+												<div class="col-xs-6">
+													<a href="#" title="View Cart" class="btn btn-block btn-warning">View Cart</a>
+												</div>
+												<div class="col-xs-6">
+													<a href="#" title="Check out" class="btn btn-block btn-primary">Check out</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="visible-xs menu-icon">
+									<a href="javascript:void(0)" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+										<i aria-hidden="true" class="fa fa-bars"></i>
+									</a>
+								</li>
+							</ul>
+
+							<div id="menu" class="collapse">
+								<ul class="nav navbar-nav">
+									<li class="mega-menu active">
+										<a href="#section1" title="">Home</a></li>
+									<li>
+										<a href="#section2" title="">About us</a>
+										<span class="arrow"></span>
+										<ul class="dm-align-2">
+											<li>
+												<a href="#" title="">About style 1</a>
+											</li>
+											<li>
+												<a href="#" title="">About style 2</a>
+											</li>
+											<li>
+												<a href="#" title="">About style 3</a>
+												<span class="arrow"></span>
+												<ul>
+													<li>
+														<a href="#" title="">Our Mission</a>
+													</li>
+													<li>
+														<a href="#" title="">Our History</a>
+													</li>
+													<li>
+														<a href="#" title="">Awards</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#section3" title="">Services</a>
+									</li>
+									<li>
+										<a href="#section4" title="">Team</a>
+									</li>
+									<li>
+										<a href="#section5" title="blog">Gallery</a>
+									</li>
+									<li class="right">
+										<a href="#section6" title="">Contact</a>
+										<span class="arrow"></span>
+										<ul>
+											<li>
+												<a href="#" title="">Contact style 1</a>
+											</li>
+											<li>
+												<a href="#" title="">Contact style 2</a>
+											</li>
+											<li>
+												<a href="#" title="">Contact style 3</a>
+												<span class="arrow"></span>
+												<ul>
+													<li>
+														<a href="#" title="">Address Address</a>
+													</li>
+													<li>
+														<a href="#" title="">Maps</a>
+													</li>
+													<li>
+														<a href="#" title="">Forms</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!--end menu-->
+    
+    <div class="clearfix"></div>
+    
+    
+    <!-- START REVOLUTION SLIDER 5.0 -->
+    <div class="slide-tmargin">
+      <div class="slidermaxwidth">
+        <div class="rev_slider_wrapper">
+        <!-- START REVOLUTION SLIDER 5.0 auto mode -->
+        <div id="rev_slider" class="rev_slider"  data-version="5.0">
+        <ul>
+          <!-- SLIDE  -->
+              <li data-transition="fade"> 
+                <!-- MAIN IMAGE --> 
+                <img src="http://placehold.it/1920x700" alt=""  width="1920" height="1280"> 
+                
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption   tp-resizeme rs-parallaxlevel-0"
+            id="slide-1-layer-1" 
+           data-x="['left','left','center','center']" data-hoffset="['100','40','20','0']" 
+			data-y="['top','top','top','top']" data-voffset="['140','120','350','450']" 
+            data-width="none" data-height="none" 
+            data-whitespace="nowrap" 
+            data-transform_idle="o:1;" 
+            data-transform_in="x:right;s:1500;e:Power3.easeOut;" 
+            data-transform_out="opacity:0;s:1500;e:Power4.easeIn;s:1500;e:Power4.easeIn;" 
+            data-start="1000" 
+            data-responsive_offset="on" 
+           style="z-index: 5;text-transform:left;"> <img src="http://placehold.it/570x790/b1b1b1" alt="" width="570" height="790" data-ww="['570','570','470','395']" data-hh="['790','790','652','548']" data-no-retina> </div>
+                
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption raleway fweight-2 dark tp-resizeme rs-parallaxlevel-0"
+            id="slide-2-layer-1" 
+			data-x="['left','left','center','center']" data-hoffset="['720','550','0','0']" 
+			data-y="['top','top','top','top']" data-voffset="['310','200','80','80']" 
+			data-fontsize="['80','80','50','30']"
+			data-lineheight="['70','70','70','50']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"			 
+			data-transform_in="x:[-105%];z:0;rX:0deg;rY:0deg;rZ:-90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+			data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+			data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+			data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+			data-start="1500" 
+			data-splitin="chars" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+			data-elementdelay="0.1" 						
+			style="z-index: 6; white-space: nowrap; font-size: 30px; line-height: 30px;">We are</div>
+                
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption raleway fweight-4 dark uppercase tp-resizeme rs-parallaxlevel-0"
+            id="slide-2-layer-2" 
+			data-x="['left','left','center','center']" data-hoffset="['720','550','0','0']" 
+			data-y="['top','top','top','top']" data-voffset="['370','260','140','110']" 
+			data-fontsize="['80','80','50','30']"
+			data-lineheight="['70','70','70','50']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"			 
+			data-transform_in="x:[-105%];z:0;rX:0deg;rY:0deg;rZ:-90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+			data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+			data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+			data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+			data-start="2000" 
+			data-splitin="chars" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+			data-elementdelay="0.1" 						
+			style="z-index: 6; white-space: nowrap; font-size: 30px; line-height: 30px;">Creative</div>
+                
+                <!-- LAYER NR. 4 -->
+                <div class="tp-caption openSans dark-grey tp-resizeme" 
+			data-x="['left','left','center','center']" data-hoffset="['720','550','0','0']" 
+			data-y="['top','top','top','top']" data-voffset="['460','360','230','180']"
+            data-fontsize="['14','14','14','14']" 
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"			 
+			data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
+			data-transform_out="opacity:0;s:1000;s:1000;" 
+			data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+			data-start="2500" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+			style="z-index: 5; white-space: nowrap;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br/>
+                  Suspendisse et justo Praesent mattis commodo augue. </div>
+                
+                <!-- LAYER NR. 5 -->
+                <div class="tp-caption sbut2 btn-xradius"
+            id="slide-2-layer-5"
+			data-x="['left','left','center','center']" data-hoffset="['720','550','0','0']" 
+			data-y="['top','top','top','top']" data-voffset="['550','480','340','280']"
+			data-speed="800"
+			data-start="3000"
+			data-transform_in="y:bottom;s:1500;e:Power3.easeOut;"
+			data-transform_out="opacity:0;s:3000;e:Power4.easeIn;s:3000;e:Power4.easeIn;" 
+			data-endspeed="300"
+			data-captionhidden="off"
+			style="z-index: 6"> <a href="#">Read more &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
+              </li>
+          
+         <!-- SLIDE  -->
+              <li data-transition="fade"> 
+                <!-- MAIN IMAGE --> 
+                <img src="http://placehold.it/1920x700" alt=""  width="1920" height="1280"> 
+                
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption   tp-resizeme rs-parallaxlevel-0"
+            id="slide-1-layer-1" 
+           data-x="['left','left','center','center']" data-hoffset="['100','40','20','0']" 
+			data-y="['top','top','top','top']" data-voffset="['140','120','350','370']" 
+            data-width="none" data-height="none" 
+            data-whitespace="nowrap" 
+            data-transform_idle="o:1;" 
+            data-transform_in="x:right;s:1500;e:Power3.easeOut;" 
+            data-transform_out="opacity:0;s:1500;e:Power4.easeIn;s:1500;e:Power4.easeIn;" 
+            data-start="1000" 
+            data-responsive_offset="on" 
+           style="z-index: 5;text-transform:left;"> <img src="http://placehold.it/400x760/b1b1b1" alt="" width="400" height="760" data-ww="['400','400','340','315']" data-hh="['760','760','645','599']" data-no-retina> </div>
+                
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption raleway fweight-2 dark tp-resizeme rs-parallaxlevel-0"
+            id="slide-2-layer-1" 
+			data-x="['left','left','center','center']" data-hoffset="['720','550','0','0']" 
+			data-y="['top','top','top','top']" data-voffset="['310','200','80','80']" 
+			data-fontsize="['80','80','50','30']"
+			data-lineheight="['70','70','70','50']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"			 
+			data-transform_in="x:[-105%];z:0;rX:0deg;rY:0deg;rZ:-90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+			data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+			data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+			data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+			data-start="1500" 
+			data-splitin="chars" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+			data-elementdelay="0.1" 						
+			style="z-index: 6; white-space: nowrap; font-size: 30px; line-height: 30px;">Beautiful</div>
+                
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption raleway fweight-4 dark uppercase tp-resizeme rs-parallaxlevel-0"
+            id="slide-2-layer-2" 
+			data-x="['left','left','center','center']" data-hoffset="['720','550','0','0']" 
+			data-y="['top','top','top','top']" data-voffset="['370','260','140','110']" 
+			data-fontsize="['80','80','50','30']"
+			data-lineheight="['70','70','70','50']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"			 
+			data-transform_in="x:[-105%];z:0;rX:0deg;rY:0deg;rZ:-90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
+			data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+			data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+			data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+			data-start="2000" 
+			data-splitin="chars" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+			data-elementdelay="0.1" 						
+			style="z-index: 6; white-space: nowrap; font-size: 30px; line-height: 30px;">Layouts</div>
+                
+                <!-- LAYER NR. 4 -->
+                <div class="tp-caption openSans dark-grey tp-resizeme" 
+			data-x="['left','left','center','center']" data-hoffset="['720','550','0','0']" 
+			data-y="['top','top','top','top']" data-voffset="['460','360','230','180']"
+            data-fontsize="['14','14','14','14']" 
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"			 
+			data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" 
+			data-transform_out="opacity:0;s:1000;s:1000;" 
+			data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+			data-start="2500" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+			style="z-index: 5; white-space: nowrap;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br/>
+                  Suspendisse et justo Praesent mattis commodo augue. </div>
+                
+                <!-- LAYER NR. 5 -->
+                <div class="tp-caption sbut2 btn-xradius"
+            id="slide-2-layer-5"
+			data-x="['left','left','center','center']" data-hoffset="['720','550','0','0']" 
+			data-y="['top','top','top','top']" data-voffset="['550','480','340','280']"
+			data-speed="800"
+			data-start="3000"
+			data-transform_in="y:bottom;s:1500;e:Power3.easeOut;"
+			data-transform_out="opacity:0;s:3000;e:Power4.easeIn;s:3000;e:Power4.easeIn;" 
+			data-endspeed="300"
+			data-captionhidden="off"
+			style="z-index: 6"> <a href="#">Read more &nbsp; <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
+              </li>
+        </ul>
+      </div>
+      <!-- END REVOLUTION SLIDER --> 
+    </div>
+  </div>
+  <!-- END REVOLUTION SLIDER WRAPPER --> 
+</div>
+<div class="clearfix"></div>
+<!-- END OF SLIDER WRAPPER -->
+    
+    <div id="section2"></div>
+    <section class="sec-tpadding-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 margin-bottom"> <img src="http://placehold.it/1000x1300" alt="" class="img-responsive"/> </div>
+          <!--end item-->
+          
+          <div class="col-md-6 margin-bottom">
+            <div class="col-xs-12 nopadding">
+              <div class="sec-title-container less-padding-3 text-left">
+                <div class="ce4-title-line-1 align-left"></div>
+                <h4 class="uppercase font-weight-7 less-mar-1">who we are</h4>
+                <div class="clearfix"></div>
+                <p class="by-sub-title">Lorem ipsum dolor sit amet, consectetuer </p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <!--end title-->
+            
+            <h6 class="raleway"><span class="text-gyellow">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et</span> justo. Praesent mattis commodo augue Aliquam ornare.</h6>
+            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo consectetuer adipiscing Praesent mattis commodo augue Aliquam ornare consectetuer adipiscing hendrerit augue Cras tellus In pulvinar lectus</p>
+            <br/>
+            <div class="iconlist-2">
+              <div class="icon dark"><i class="fa fa-arrow-circle-right"></i></div>
+              <div class="text">Pellentesque sit amet augue eu orci cursus fermentum vestibulum in dolor.</div>
+            </div>
+            <!--end item-->
+            
+            <div class="iconlist-2">
+              <div class="icon dark"><i class="fa fa-arrow-circle-right"></i></div>
+              <div class="text">Maecenas fringilla orci ultrices nulla consectetur, id suscipit erat vulputate.</div>
+            </div>
+            <!--end item-->
+            
+            <div class="iconlist-2">
+              <div class="icon dark"><i class="fa fa-arrow-circle-right"></i></div>
+              <div class="text">Nullam efficitur velit ut interdum pellentesque.</div>
+            </div>
+            <!--end item-->
+            
+            <div class="iconlist-2">
+              <div class="icon dark"><i class="fa fa-arrow-circle-right"></i></div>
+              <div class="text">Maecenas sit amet orci eget mi commodo scelerisque eu tempus mi.</div>
+            </div>
+            <!--end item-->
+            <div class="clearfix"></div>
+            <br/>
+            <img src="images/ce4-34.png" alt=""/>
+            <div class="clearfix"></div>
+            <br/>
+            <br/>
+            <a class="btn btn-dark-3 uppercase" href="#">Read more</a> </div>
+          <!--end item--> 
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <!-- end section -->
+    
+   <section class="parallax-21">
+      <div class="container-fluid nopadding">
+	<div class="parallax-overlay bg-opacity-8">
+        <div class="container sec-tpadding-3 sec-bpadding-3">
+          <div class="row">
+            <div class="col-md-8 col-centered text-center">
+              <h3 class="uppercase text-white font-weight-6">Parallax background</h3>
+              <p class="text-light">Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci. </p>
+              <br/>
+              <br/>
+              <a class="btn btn-gyellow-2" href="#">Read more</a></div>
+          </div>
+      </div>
+          </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <!--end section-->
+	
+    <div id="section3"></div>
+     <section class="sec-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 nopadding">
+            <div class="sec-title-container text-center">
+              <div class="ce4-title-line-1"></div>
+              <h4 class="uppercase font-weight-7 less-mar-1">Our Services</h4>
+              <div class="clearfix"></div>
+              <p class="by-sub-title">lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!--end title-->
+          
+          <div class="col-md-6">
+            <div class="ce4-feature-box-36 margin-bottom">
+              <div class="icon-plain-small left icon"><span class="icon-bike"></span></div>
+              <div class="text-box-right">
+                <h5 class="less-mar-1 title uppercase nopadding">Graphic Design</h5>
+                <div class="title-line"></div>
+                <div class="clearfix"></div>
+                <br/>
+                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sit amet Suspendisse et justo Praesent mattis commodo augue laoreet ligul  Etiam sit amet dolor Vestibulum ante ipsum primis.</p>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+          
+          <div class="col-md-6">
+            <div class="ce4-feature-box-36 margin-bottom">
+              <div class="icon-plain-small left icon"><span class="icon-layers"></span></div>
+              <div class="text-box-right">
+                <h5 class="less-mar-1 title uppercase nopadding">PSD Mockups</h5>
+                <div class="title-line"></div>
+                <div class="clearfix"></div>
+                <br/>
+                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sit amet Suspendisse et justo Praesent mattis commodo augue laoreet ligul  Etiam sit amet dolor Vestibulum ante ipsum primis.</p>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+          
+          <div class="col-divider-margin-5"></div>
+          <div class="col-md-6">
+            <div class="ce4-feature-box-36 margin-bottom">
+              <div class="icon-plain-small left icon"><span class="icon-scissors"></span></div>
+              <div class="text-box-right">
+                <h5 class="less-mar-1 title uppercase nopadding">Code optimization</h5>
+                <div class="title-line"></div>
+                <div class="clearfix"></div>
+                <br/>
+                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sit amet Suspendisse et justo Praesent mattis commodo augue laoreet ligul  Etiam sit amet dolor Vestibulum ante ipsum primis.</p>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+          
+          <div class="col-md-6">
+            <div class="ce4-feature-box-36 margin-bottom">
+              <div class="icon-plain-small left icon"><span class="icon-camera"></span></div>
+              <div class="text-box-right">
+                <h5 class="less-mar-1 title uppercase nopadding">Photography</h5>
+                <div class="title-line"></div>
+                <div class="clearfix"></div>
+                <br/>
+                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sit amet Suspendisse et justo Praesent mattis commodo augue laoreet ligul  Etiam sit amet dolor Vestibulum ante ipsum primis.</p>
+              </div>
+            </div>
+          </div>
+          <!--end item--> 
+          
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <!-- end section -->
+    
+    <div id="section4"></div>
+    <section class="sec-tpadding-2 section-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 nopadding">
+            <div class="sec-title-container text-center">
+              <div class="ce4-title-line-1"></div>
+              <h4 class="uppercase font-weight-7 less-mar-1">Meet Our Team</h4>
+              <div class="clearfix"></div>
+              <p class="by-sub-title">lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!--end title-->
+          
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="ce4-feature-box-22 margin-bottom">
+              <div class="img-box">
+                <div class="text-box">
+                  <div class="sc-icons-box">
+                    <ul class="sc-icons">
+                      <li><a target="_blank" class="twitter" href="https://twitter.com/codelayers"><i class="fa fa-twitter"></i></a></li>
+                      <li><a target="_blank" href="https://www.facebook.com/codelayers"><i class="fa fa-facebook"></i></a></li>
+                      <li><a class="active" href="#"><i class="fa fa-google-plus"></i></a></li>
+                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                  <h5 class="less-mar-1">Matthew</h5>
+                  <p class="text-gyellow">Manager</p>
+                  <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sit amet justo.</p>
+                </div>
+                <img src="http://placehold.it/750x1300" alt="" class="img-responsive"/> </div>
+            </div>
+          </div>
+          <!--end item-->
+          
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="ce4-feature-box-22 margin-bottom">
+              <div class="img-box">
+                <div class="text-box">
+                  <div class="sc-icons-box">
+                    <ul class="sc-icons">
+                      <li><a target="_blank" class="twitter" href="https://twitter.com/codelayers"><i class="fa fa-twitter"></i></a></li>
+                      <li><a target="_blank" href="https://www.facebook.com/codelayers"><i class="fa fa-facebook"></i></a></li>
+                      <li><a class="active" href="#"><i class="fa fa-google-plus"></i></a></li>
+                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                  <h5 class="less-mar-1">Charlotte</h5>
+                  <p class="text-gyellow">Support</p>
+                  <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sit amet justo.</p>
+                </div>
+                <img src="http://placehold.it/750x1300" alt="" class="img-responsive"/> </div>
+            </div>
+          </div>
+          <!--end item-->
+          
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="ce4-feature-box-22 margin-bottom">
+              <div class="img-box">
+                <div class="text-box">
+                  <div class="sc-icons-box">
+                    <ul class="sc-icons">
+                      <li><a target="_blank" class="twitter" href="https://twitter.com/codelayers"><i class="fa fa-twitter"></i></a></li>
+                      <li><a target="_blank" href="https://www.facebook.com/codelayers"><i class="fa fa-facebook"></i></a></li>
+                      <li><a class="active" href="#"><i class="fa fa-google-plus"></i></a></li>
+                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                  <h5 class="less-mar-1">Matthew</h5>
+                  <p class="text-gyellow">Manager</p>
+                  <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sit amet justo.</p>
+                </div>
+                <img src="http://placehold.it/750x1300" alt="" class="img-responsive"/> </div>
+            </div>
+          </div>
+          <!--end item--> 
+          
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <!-- end section -->
+    
+    <div id="section5"></div>
+    <section class="sec-tpadding-2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 nopadding">
+            <div class="sec-title-container text-center">
+              <div class="ce4-title-line-1"></div>
+              <h4 class="uppercase font-weight-7 less-mar-1">featured projects</h4>
+              <div class="clearfix"></div>
+              <p class="by-sub-title">lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <!--end title-->
+          
+          <div>
+            <div id="js-filters-mosaic-flat" class="cbp-l-filters-buttonCenter">
+              <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> All
+                <div class="cbp-filter-counter"></div>
+              </div>
+              <div data-filter=".print" class="cbp-filter-item"> Graphic
+                <div class="cbp-filter-counter"></div>
+              </div>
+              <div data-filter=".web-design" class="cbp-filter-item"> Branding
+                <div class="cbp-filter-counter"></div>
+              </div>
+              <div data-filter=".graphic" class="cbp-filter-item"> Products
+                <div class="cbp-filter-counter"></div>
+              </div>
+              <div data-filter=".motion" class="cbp-filter-item"> Photography
+                <div class="cbp-filter-counter"></div>
+              </div>
+            </div>
+            <div id="js-grid-mosaic-flat" class="cbp cbp-l-grid-mosaic-flat">
+              <div class="cbp-item web-design graphic"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
+                <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
+                <div class="cbp-caption-activeWrap">
+                  <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                      <div class="cbp-l-caption-title">Lorem ipsum dolor sit</div>
+                    </div>
+                  </div>
+                </div>
+                </a> </div>
+              <div class="cbp-item print motion"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
+                <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
+                <div class="cbp-caption-activeWrap">
+                  <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                      <div class="cbp-l-caption-title">Lorem ipsum dolor sit</div>
+                    </div>
+                  </div>
+                </div>
+                </a> </div>
+              <div class="cbp-item print motion"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
+                <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
+                <div class="cbp-caption-activeWrap">
+                  <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                      <div class="cbp-l-caption-title">Lorem ipsum dolor sit</div>
+                    </div>
+                  </div>
+                </div>
+                </a> </div>
+              <div class="cbp-item motion graphic"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
+                <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
+                <div class="cbp-caption-activeWrap">
+                  <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                      <div class="cbp-l-caption-title">Lorem ipsum dolor sit</div>
+                    </div>
+                  </div>
+                </div>
+                </a> </div>
+              <div class="cbp-item web-design print"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
+                <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
+                <div class="cbp-caption-activeWrap">
+                  <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                      <div class="cbp-l-caption-title">Lorem ipsum dolor sit</div>
+                    </div>
+                  </div>
+                </div>
+                </a> </div>
+              <div class="cbp-item print motion"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
+                <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
+                <div class="cbp-caption-activeWrap">
+                  <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                      <div class="cbp-l-caption-title">Lorem ipsum dolor sit</div>
+                    </div>
+                  </div>
+                </div>
+                </a> </div>
+              <div class="cbp-item print motion"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
+                <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
+                <div class="cbp-caption-activeWrap">
+                  <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                      <div class="cbp-l-caption-title">Lorem ipsum dolor sit</div>
+                    </div>
+                  </div>
+                </div>
+                </a> </div>
+              <div class="cbp-item print motion"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
+                <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
+                <div class="cbp-caption-activeWrap">
+                  <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                      <div class="cbp-l-caption-title">Lorem ipsum dolor sit</div>
+                    </div>
+                  </div>
+                </div>
+                </a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <!-- end section -->
+    
+    <div id="section6"></div>
+     <section class="sec-padding section-dark">
+  <div class="container">
+  <div class="row">
+          <div class="col-md-6">
+            <div class="smartforms-modal-body">
+                    <div class="smart-wrap">
+                        <div class="smart-forms smart-container transparent wrap-full">
+                            <div class="form-body no-padd">
+                                <form method="post" action="php/smartprocess.php" id="smart-form">
+                    
+                        <div class="section">
+                            <label class="field prepend-icon">
+                                <input type="text" name="sendername" id="sendername" class="gui-input" placeholder="Enter name">
+                                <span class="field-icon"><i class="fa fa-user"></i></span>  
+                            </label>
+                        </div><!-- end section -->
+                        
+                        <div class="section">
+                            <label class="field prepend-icon">
+                                <input type="email" name="emailaddress" id="emailaddress" class="gui-input" placeholder="Email address">
+                                <span class="field-icon"><i class="fa fa-envelope"></i></span>
+                            </label>
+                        </div><!-- end section -->
+                
+                
+                <div class="section">
+        <label class="field prepend-icon">
+            <input type="text" name="telephone" id="telephone" class="gui-input" placeholder="Enter Telephone...">
+            <span class="field-icon"><i class="fa fa-phone-square"></i></span>  
+        </label>
+    </div><!-- end section -->
+                            
+
+                        <div class="section">
+                            <label class="field prepend-icon">
+                                <input type="text" name="sendersubject" id="sendersubject" class="gui-input" placeholder="Enter subjec">
+                                <span class="field-icon"><i class="fa fa-lightbulb-o"></i></span>
+                            </label>
+                        </div><!-- end section -->
+                        
+                        <div class="section">
+                            <label class="field prepend-icon">
+                                <textarea class="gui-textarea" id="sendermessage" name="sendermessage" placeholder="Enter message"></textarea>
+                                <span class="field-icon"><i class="fa fa-comments"></i></span>
+                                <span class="input-hint"> <strong>Hint:</strong> Please enter between 80 - 300 characters.</span>   
+                            </label>
+                        </div><!-- end section -->
+                        
+
+                       <div class="result"></div><!-- end .result  section --> 
+                                                                                                                    
+                    <!-- end .form-body section -->
+                    <div class="form-footer text-left">
+                        <button type="submit" data-btntext-sending="Sending..." class="button btn-primary">Submit</button>
+                        <button type="reset" class="button"> Cancel </button>
+                    </div><!-- end .form-footer section -->
+                </form>                                                                                   
+                            </div><!-- end .form-body section -->
+                        </div><!-- end .smart-forms section -->
+                    </div><!-- end .smart-wrap section -->            
+                </div><!-- end .smart-wrap section -->
+            <!-- end .smart-forms section --> 
+          </div>
+          <!--end item-->
+          
+          <div class="col-md-6 text-left">
+            <h2 class="text-white uppercase"><strong>Get in Touch With Us</strong></h2>
+            <br/>
+            <h4 class="text-white">Address Info</h4>
+            <h6 class="text-white">Company name</h6>
+            <p>3096 Cemetery Hollow Street, Houston, TX 77099
+              Telephone: +1 1234-567-89000
+              FAX: +1 0123-4567-8900</p>
+            <br/>
+            <p>E-mail: mail@companyname.com</p>
+            <p>Website: www.yoursitename.com</p>
+          </div>
+          <!--end item--> 
+          
+        </div>
+  </div>
+  </section>
+<div class="clearfix"></div>
+  <!-- end section -->
+
+    <section class="sec-moreless-padding">
+      <div class="container">
+        <div class="row">
+          <div class="fo-copyright-holder text-center">
+            
+            Copyright © 2019 <a href="https://1.envato.market/printer-html-by-codelayers">printer</a> By <a href="https://1.envato.market/codelayers">Codelayers</a> | All rights reserved. </div>
+        </div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+    <!-- end section --> 
+    
+    <a href="#" class="scrollup"></a><!-- end scroll to top of the page--> 
+    
+  </div>
+  <!--end site wrapper--> 
+</div>
+<!--end wrapper boxed--> 
+
+<!-- Scripts --> 
+<script src="js/jquery/jquery.js"></script> 
+<script src="js/bootstrap/bootstrap.min.js"></script> 
+<script src="js/style-customizer/js/spectrum.js"></script> 
+<script src="js/less/less.min.js" data-env="development"></script> 
+<script src="js/style-customizer/js/style-customizer.js"></script> 
+<!-- Scripts END --> 
+
+<!-- Template scripts --> 
+<script src="js/megamenu/js/main.js"></script>
+<script src="js/megamenu/js/onepage.js"></script>
+<script src="js/owl-carousel/owl.carousel.js"></script> 
+<script src="js/owl-carousel/custom.js"></script> 
+<script src="js/template-custom/js/template-custom.js"></script> 
+<script type="text/javascript" src="js/cubeportfolio/jquery.cubeportfolio.min.js"></script> 
+<script type="text/javascript" src="js/cubeportfolio/main-mosaic3.js"></script> 
+
+<!-- REVOLUTION JS FILES --> 
+<script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script> 
+
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
+
+ 
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+(Load Extensions only on Local File Systems ! 
+The following part can be removed on Server for On Demand Loading) --> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
+ 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
+<script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script> 
+
+<script>
+	var revapi;
+	jQuery(document).ready(function() {		
+		revapi = jQuery("#rev_slider").revolution({
+			sliderType:"standard",
+			sliderLayout:"auto",
+			fullScreenOffsetContainer:".header",
+<!--			fullScreenOffset:"50px",-->
+			delay:9000,
+			navigation: {
+				arrows:{enable:true}				
+			},			
+			responsiveLevels:[1240,1024,778,480],
+			gridwidth:[1240,1024,778,480],
+			 gridheight: [868,768,1000,950],		
+		});		
+	});	/*ready*/
+</script> 
+
+
+    <script type="text/javascript" src="js/smart-forms/jquery.form.min.js"></script> 
+<script type="text/javascript" src="js/smart-forms/jquery.validate.min.js"></script> 
+<script type="text/javascript" src="js/smart-forms/additional-methods.min.js"></script> 
+<script type="text/javascript" src="js/smart-forms/smart-form.js"></script> 
+<script>
+    $(window).load(function(){
+      setTimeout(function(){
+
+        $('.loader-live').fadeOut();
+      },1000);
+    })
+
+  </script>
+<script src="js/functions/functions.js"></script>
+
+</body>
+</html>
