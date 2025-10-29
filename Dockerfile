@@ -1,21 +1,23 @@
 FROM php:7.4-apache
 
-# 先装 mbstring 依赖 oniguruma，再装 PHP 扩展
-RUN set -eux; \
-    apt-get update; \
-    apt-get install -y --no-install-recommends libonig-dev; \
-    docker-php-ext-install pdo pdo_mysql mbstring; \
-    rm -rf /var/lib/apt/lists/*
+# 安装依赖
+RUN apt-get update && apt-get install -y --no-install-recommends libonig-dev \
+    && docker-php-ext-install pdo pdo_mysql mbstring \
+    && a2enmod rewrite
 
-# 如果要用 ThinkPHP 的伪静态，别忘了启用 rewrite
-RUN a2enmod rewrite
+# 设置 Apache 目录权限（避免 403）
+RUN chown -R www-data:www-data /var/www/html
 
-# 复制代码
+# 拷贝网站文件
 COPY . /var/www/html/
 
-# （推荐）把网站根目录指向 Public，并放行 .htaccess
-RUN sed -i 's#DocumentRoot /var/www/html#DocumentRoot /var/www/html/Public#g' /etc/apache2/sites-available/000-default.conf \
- && printf '\n<Directory /var/www/html/Public>\n    AllowOverride All\n    Require all granted\n</Directory>\n' >> /etc/apache2/apache2.conf
+# 设置工作目录为 ThinkPHP 的 Public
+WORKDIR /var/www/html/Public
+
+# Apache 监听 8080（Koyeb 要求）
+RUN sed -i 's/80/8080/' /etc/apache2/ports.conf /etc/apache2/sites-available/000-default.conf
 
 EXPOSE 8080
+
+# 保持容器前台运行
 CMD ["apache2-foreground"]
