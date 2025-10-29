@@ -21,5 +21,8 @@ RUN sed -i 's/80/8080/' /etc/apache2/ports.conf /etc/apache2/sites-available/000
 
 EXPOSE 8080
 
+# ✅ 启动前清理 ThinkPHP Runtime 缓存
+CMD rm -rf /var/www/html/Application/Runtime/* && apache2-foreground
+
 # 保持容器前台运行
 CMD ["apache2-foreground"]
